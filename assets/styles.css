@@ -1,3 +1,10 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
 .header{
     background-color: #FFF;
     padding: 15px;
@@ -23,15 +30,33 @@
     -moz-background-size: cover; /*rule for different browsers (firefox)*/
     -o-background-size: cover; /*rule for different browsers*/
     background-size: cover;
+}
 
-.body{
+.body-text{
     font-family: Helvetica;
     font-size: 15px;
-    margin: 0, 0, 20, 20;
+    padding: 20px;
+}
+.bold{
+    font-weight: 800;
 }
 
 .med-img{
-    float: left;
     height: 350px;
-    margin: 30px, 30px, 30px, 30px;
+    padding: 20px;
+}
+.float-right{
+        float: right;
+    }
+.float-left{
+        float: left;
+    }
+.float-center{
+    margin: 0 auto;
+    float: center;
+    text-align: center;
+}
+
+.white{
+    color: white;
 }
